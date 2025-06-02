@@ -4,7 +4,7 @@
 # - Simples de entender e implementar.
 # - Detecta rapidamente se a lista já está ordenada.
 # Desvantagens:
-# - Muito ineficiente para grandes listas (O(n²)).
+# - Muito ineficiente para grandes listas.
 # - Grande número de comparações e trocas.
 
 def bubble_sort(arr):
