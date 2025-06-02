@@ -5,7 +5,7 @@
 # - Bom para listas quase ordenadas (O(n) no melhor caso).
 # - Estável.
 # Desvantagens:
-# - Ineficiente para listas grandes (O(n²) no pior caso).
+# - Ineficiente para listas grandes no pior caso).
 
 def insertion_sort(arr):
     for i in range(1, len(arr)):
